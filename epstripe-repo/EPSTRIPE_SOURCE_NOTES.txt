@@ -1,0 +1,123 @@
+Epstripe 1.0.0a11 source and license notes
+===============================================
+
+Epstripe is a Winstripe/XP-style complete theme for Epyrus.
+This clean alpha build was prepared by Halvar666 from the confirmed Epstripe 1.0.0a9 visual state.
+
+Confirmed visual baseline included in this clean build
+-----------------------------------------------------
+
+- a4: Correct Tag / Back / Forward toolbar cells from Winstripe 1.9.9, with the proper source-to-Epstripe sprite mapping.
+- a8: Increased #mail-bar3 vertical padding to 2px top and 3px bottom, making the mail toolbar 5px taller without shifting the whole toolbox upward.
+- a9: Improved inactive selection readability in the folder tree and message/thread list.
+
+Abandoned experiments intentionally not included
+------------------------------------------------
+
+- a5: Skin-side XBL appmenu label experiment.
+- a6: Content overlay / XBL fallback appmenu label experiment.
+- a7: .mail-toolbox margin-top experiment that shifted the toolbox upward instead of increasing usable vertical space.
+
+Known external issue
+--------------------
+
+In some localized Epyrus language packs, the app menu button may still display "Thunderbird" instead of "Epyrus". The English UI already displays the correct text. This is caused by language-pack branding strings, not by the Epstripe theme.
+
+Package license
+---------------
+
+Unless a file carries a more specific original notice, this package and the Epstripe modifications are distributed under the Mozilla Public License 2.0 (MPL 2.0).
+
+This build intentionally does not choose any GPL-only license, MIT/BSD/Apache license, or Public Domain dedication for imported open-source material. Existing file-level license headers are preserved and prevail where present.
+
+License compatibility choice
+----------------------------
+
+The project uses MPL 2.0 as the package license because:
+
+- ClassicTB2 for Epyrus uses an MPL 2.0 install manifest and includes older Mozilla/Thunderbird theme files with their original headers.
+- xpDefault colored buttons is MPL 2.0.
+- Very old Mozilla/Thunderbird/Winstripe-era tri-licensed files or assets are used under the MPL branch and, where needed, treated as compatible with MPL 2.0 without adding an "incompatible with secondary licenses" notice.
+- No GPL 3.0-only, GPL-only, MIT/BSD/Apache-only, or Public Domain-only relicensing path is selected.
+
+Main source components
+----------------------
+
+1. ClassicTB2 for Epyrus 2.2.0
+   Used as the base theme/skeleton and fallback icon/style source.
+   Original install.rdf credits:
+   - Open Source Contributors
+   - M. C. Straver (Moonchild Productions; http://www.moonchild.productions/about.shtml)
+   - Corey Drechsler
+   - Zamula
+   - Christoph Wirsching
+   - Mozilla Foundation
+
+2. Default Epyrus / Mozilla theme files
+   Used for the corrected main toolbar/button geometry and general Epyrus-compatible UI behavior.
+   Credits:
+   - Mozilla Foundation and Mozilla contributors
+   - Epyrus / Pale Moon project contributors where applicable
+
+3. Firefox / Toolkit / Thunderbird Winstripe-era assets
+   Used as historical icon source/inspiration and as the licensing basis for compatible old Winstripe-style material.
+   Credits:
+   - Mozilla Foundation and Mozilla contributors
+   - Stephen Horlander
+   - Kevin Gerich
+
+4. Thunderstripe 1.6 Windows Thunderbird theme
+   Used selectively as a Thunderbird/Winstripe-style icon source, especially for mail toolbar, compose toolbar, address book, folder/message/server states, account central, S/MIME, and selected small UI icons.
+   Metadata credits from the source package:
+   - Junior Aspirin
+   - Christoph Mayer
+   - Scratch and Mark Carson (original Winstripe idea)
+   - Relativity_17 (trash icon design)
+
+5. Winstripe 1.9.9 Thunderbird development build
+   Used only for the final Tag / Back / Forward toolbar cell refinement.
+   Important sprite order note:
+   - Winstripe 1.9.9 order: Back / Forward / Tag
+   - Epstripe CSS order: Tag / Back / Forward
+   The a10 clean build keeps the corrected a4 mapping.
+
+6. xpDefault colored buttons 52.1.3
+   Used as a supplemental Thunderbird 52 / XP-style icon source where it matches Epyrus better than very old Thunderstripe/Winstripe assets.
+   Notable retained blocks:
+   - calendar/ and lightning/ skin packages for Calendar, Tasks, Add as event and Add as task icons.
+   - Preferences, S/MIME, Activity Manager, Address Book, New Mail Account, Add-ons Manager and compose formatting icons.
+   Credits:
+   - Michal Stanke
+   - Alain Desgeorge
+   License: MPL 2.0
+
+Notable imported/modified areas
+-------------------------------
+
+- Main mail toolbar sprites, including Winstripe 1.9.9 Tag / Back / Forward cells and Epstripe green unread double-arrow corrections.
+- Compose toolbar sprites, including TB52/Epyrus-compatible format-buttons.png from xpDefault.
+- Address Book toolbar and icon assets.
+- Folder/server/message/thread/attachment/junk/read/unread state icons.
+- Preferences, S/MIME, Activity Manager and New Mail Account icons.
+- Calendar/Lightning skin packages from xpDefault for XP-style Calendar, Tasks, Add as event and Add as task icons.
+- Main toolbar geometry is inherited from Default Epyrus; no Winstripe/Thunderstripe toolbar background or window background texture transplant is used.
+- #mail-bar3 has a small Epstripe-only vertical padding adjustment to give the toolbar more height.
+- Inactive selected rows in folder and thread trees use dark text to remain readable when focus moves to another tree.
+
+Files added for license/source tracking
+---------------------------------------
+
+- LICENSE
+  Full MPL 2.0 license text for the package.
+
+- LICENSE_xpDefault_colored_buttons_MPL2.txt
+  Original MPL 2.0 license text retained from the xpDefault supplemental source tracking step.
+
+- XPDEFAULT_COLORED_BUTTONS_SOURCE.txt
+  Supplemental source notes for the xpDefault colored buttons material.
+
+- EPSTRIPE_SOURCE_NOTES.txt
+  This file.
+
+[a11]
+- Updated add-on listing artwork: icon.png now uses the Get Messages icon at 32x32; preview.png refreshed from current Epstripe toolbar screenshot.

@@ -1,0 +1,13 @@
+xpDefault colored buttons supplemental source
+=============================================
+
+Supplemental Thunderbird 52-era XP/default-style assets in this build are taken from:
+
+  xpDefault colored buttons 52.1.3
+  Original author: Michal Stanke
+  Later Thunderbird 45/52 updates: Alain Desgeorge
+  Description: Default XP theme for Windows with colored buttons
+  License: Mozilla Public License 2.0
+
+Used in Epstripe for selected icon-compatible areas and for the Calendar/Lightning skin package that provides XP-style Calendar, Tasks, Add as event, and Add as task toolbar icons.
+See EPSTRIPE_SOURCE_NOTES.txt for complete source and license notes.

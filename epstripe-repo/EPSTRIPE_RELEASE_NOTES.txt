@@ -1,0 +1,19 @@
+Epstripe 1.0.0a11 clean build
+--------------------------------
+
+[Cleaned]
+- Rebuilt from the confirmed Epstripe 1.0.0a9 visual state.
+- Removed/avoided abandoned a5/a6 appmenu label experiments and the a7 toolbox-shift experiment.
+- Normalized package notes and source/license tracking.
+
+[Fixed]
+- Keeps corrected Winstripe 1.9.9 Tag / Back / Forward mapping from a4.
+- Keeps taller mail toolbar padding from a8.
+- Keeps inactive selected row readability fix from a9.
+
+[Known]
+- In some localized Epyrus language packs, the app menu button can still show "Thunderbird". This belongs to the language pack branding strings, not the theme.
+
+[a11]
+- Replaced root icon.png with a 32x32 Get Messages icon derived from the main toolbar sprite.
+- Replaced root preview.png with a refreshed Epstripe preview image based on the current toolbar look.

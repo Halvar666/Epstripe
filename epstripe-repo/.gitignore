@@ -1,0 +1,18 @@
+# Build output
+/dist/*.xpi
+!/dist/Epstripe_1.0.0a11.xpi
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*~
+*.bak
+*.tmp
+
+# Python/cache noise
+__pycache__/
+*.pyc
+
+# Local test folders
+/test-profile/
+/tmp/

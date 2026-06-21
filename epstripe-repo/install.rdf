@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>epstripe@halvar666</em:id>
+    <em:version>1.0.0a11</em:version>
+    <em:type>4</em:type>
+
+    <!-- Target Application this theme can install into,
+        with minimum and maximum supported versions. -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{29877c1d-27df-4421-9a79-382c31470151}</em:id>
+        <em:minVersion>2.0.0</em:minVersion>
+        <em:maxVersion>2.2.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>Epstripe</em:name>
+    <em:description>Winstripe/XP-style complete theme for Epyrus, based on ClassicTB2 with selected Thunderbird/Winstripe-era icon work.</em:description>
+    <em:license>MPL 2.0</em:license>
+
+    <!-- Front End Integration Hooks (used by Theme Manager) -->
+    <em:creator>Halvar666</em:creator>
+    <em:contributor>Open Source Contributors - original ClassicTB2 for Epyrus creator entry</em:contributor>
+    <em:contributor>M. C. Straver - ClassicTB2 for Epyrus / Epyrus theme work</em:contributor>
+    <em:contributor>Corey Drechsler - ClassicTB2 / Thunderbird classic theme heritage</em:contributor>
+    <em:contributor>Zamula - ClassicTB2 / Thunderbird classic theme heritage</em:contributor>
+    <em:contributor>Christoph Wirsching - ClassicTB2 / Thunderbird classic theme heritage</em:contributor>
+    <em:contributor>Mozilla Foundation and Mozilla contributors - Thunderbird, Toolkit, Winstripe-era theme sources and Default Epyrus geometry</em:contributor>
+    <em:contributor>Stephen Horlander and Kevin Gerich - Firefox/Winstripe icon source and inspiration</em:contributor>
+    <em:contributor>Junior Aspirin and Christoph Mayer - Thunderstripe icon source</em:contributor>
+    <em:contributor>Scratch and Mark Carson - original Winstripe idea, credited by Thunderstripe</em:contributor>
+    <em:contributor>Relativity_17 - trash icon design, credited by Thunderstripe</em:contributor>
+    <em:contributor>Michal Stanke - xpDefault colored buttons original author</em:contributor>
+    <em:contributor>Alain Desgeorge - xpDefault colored buttons Thunderbird 45/52 updates</em:contributor>
+
+    <em:internalName>Epstripe</em:internalName>
+  </Description>
+
+</RDF>
