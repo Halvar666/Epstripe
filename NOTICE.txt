@@ -1,0 +1,34 @@
+Epstripe source/provenance notice
+================================
+
+Epstripe is a Winstripe/XP-style complete theme for Epyrus maintained by Halvar666.
+
+Principal source components used during development:
+
+1. ClassicTB2 for Epyrus 2.2.0
+   Base theme/skeleton and fallback theme material.
+
+2. Default Epyrus / Mozilla theme files
+   Epyrus-compatible geometry and platform behavior. The Windows titlebar and
+   caption-button compatibility layer is derived from Epyrus 2.2.1 Win64 Default.
+
+3. Firefox / Toolkit / Thunderbird Winstripe-era material
+   Historical icon source/inspiration and compatible theme assets.
+
+4. Thunderstripe 1.6 Windows
+   Select mail, compose, Address Book, folder/message/server and related icons.
+
+5. Winstripe 1.9.9 Thunderbird development build
+   Final Tag / Back / Forward toolbar cells, remapped to Epstripe's sprite order.
+
+6. xpDefault colored buttons 52.1.3
+   Supplemental MPL 2.0 icons and Calendar/Lightning skin material.
+
+Package license: Mozilla Public License 2.0, unless a file carries a more
+specific original notice. Existing file-level notices remain applicable.
+
+For detailed credit, asset notes and license reasoning, see:
+- CREDITS.md
+- src/EPSTRIPE_SOURCE_NOTES.txt
+- src/XPDEFAULT_COLORED_BUTTONS_SOURCE.txt
+- src/LICENSE_xpDefault_colored_buttons_MPL2.txt

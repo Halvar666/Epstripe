@@ -1,0 +1,14 @@
+# Build output
+dist/
+
+# Editor / OS files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local development artifacts
+*.bak
+*.tmp
+__pycache__/

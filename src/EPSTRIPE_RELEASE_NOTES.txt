@@ -1,0 +1,27 @@
+Epstripe 1.0.0rc1
+==================
+
+First release candidate of Epstripe, a Winstripe/XP-style complete theme for Epyrus.
+
+[Visual]
+- Winstripe/Thunderstripe-style mail, compose, address book and supporting UI icons.
+- Corrected Winstripe 1.9.9 Tag / Back / Forward toolbar mapping.
+- Epyrus-compatible toolbar geometry with 20x20 normal and 16x16 small toolbar icons.
+- Taller main mail toolbar for improved vertical spacing.
+- Improved inactive-selection readability in the folder and message/thread panes.
+- 32x32 Get Messages icon and current preview artwork for Add-ons Manager display.
+
+[Compatibility]
+- Epyrus 2.0.0 through 2.2.*.
+- Separate Linux and Windows platform layers.
+- Windows titlebar/caption controls based on Epyrus 2.2.1 Win64 Default behavior.
+- Fixed Windows Menu Bar text contrast.
+- Fixed Windows split-button/dropmarker rendering in the main mail toolbar.
+- Linux platform overlays remain intentionally empty to preserve the established Linux appearance.
+
+[Additional UI]
+- Supplemental xpDefault colored buttons assets for Preferences, S/MIME, Activity Manager, Address Book and New Mail Account UI.
+- Calendar/Lightning skin support for Calendar, Tasks, Add as event and Add as task icons.
+
+[Known external issue]
+- Some localized Epyrus language packs may still show "Thunderbird" in the app menu button. The English UI shows "Epyrus" correctly; this is a language-pack branding issue, not a theme issue.
