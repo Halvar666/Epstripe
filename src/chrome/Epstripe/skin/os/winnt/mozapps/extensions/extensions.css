@@ -1,0 +1,32 @@
+/* Epstripe platform compatibility layer.
+ * Loaded through chrome://os/skin/ and selected by chrome.manifest.
+ */
+
+/*
+ * Native toolbarbutton-dropdown rendering in Epyrus on Windows can display
+ * a pale rectangular placeholder instead of the actual dropmarker arrow.
+ * Use the themed arrow for the Add-ons Manager utilities button.
+ */
+#header-utils-btn .toolbarbutton-menu-dropmarker,
+#header-utils-btn .toolbarbutton-menubutton-dropmarker {
+  appearance: none !important;
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn.gif") !important;
+  -moz-image-region: auto !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  min-width: 5px !important;
+  width: auto !important;
+  padding: 0 2px !important;
+  margin: 0 2px !important;
+}
+
+#header-utils-btn .toolbarbutton-menu-dropmarker[disabled="true"],
+#header-utils-btn .toolbarbutton-menubutton-dropmarker[disabled="true"] {
+  list-style-image: url("chrome://global/skin/arrow/arrow-dn-dis.gif") !important;
+}
+
+#header-utils-btn .toolbarbutton-menu-dropmarker:hover:active:not([disabled="true"]),
+#header-utils-btn .toolbarbutton-menubutton-dropmarker:hover:active:not([disabled="true"]) {
+  padding-top: 1px !important;
+}
